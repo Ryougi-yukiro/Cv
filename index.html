@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <div class="portrait"></div>
+                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                    <h3>http://www.imeitou.com/nansheng/205786.html</h3>
+                    <br/>
+                    <input type="text" id="http://www.imeitou.com/nansheng/205786.html">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div>
+                <h1 id="username" >Ryougi-yukiro</h1>
+                <h4 id="persona-tag" >Python / Perl /R</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">姓名</label><span class="label-value">朱铭佳</span></li>
+                    <li>
+                        <label class="left-label">学历</label><span class="label-value">硕士</span></li>
+                    <li>
+                        <label class="left-label">毕业院校</label><span class="label-value">兰州大学</span></li>
+                    <li>
+                        <label class="left-label">毕业年份</label><span class="label-value">2022</span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">手机</label><span class="label-value">18656474816</span></li>
+                    <li>
+                        <label class="left-label">邮箱</label><span class="label-value">z980907mj@gmail.com</span></li>
+                    <li>
+                        <label class="left-label">个人主页</label><span class="label-value">ryougi-yukiro.github.io</span></li>
+                    <li>
+                        <label class="left-label">Github</label><span class="label-value">github.com/Ryougi-yukiro</span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label">Perl</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Markdown/html</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Python</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">R</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label">基因组</label><span class="label-value">Nextdenovo BUSCO</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">转录组</label><span class="label-value">clusterprofiler E2P2 enogg-mapper</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">其它</label><span class="label-value">Population</span></li>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="code info-unit">
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
+                <hr>
+                <div class="weixin">
+                    <img src="static/image/weixin.png" alt="">
+
+                </div>
+            </div>
+            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>兰州大学 - 生态学（本科）2015-2019</h3>
+                        <p>
+                            Learn biology and ecology, use free time learn R script and ggplot2 package during 2018-2019.
+                        </p>
+                        <h3>兰州大学 - 生物信息学（硕士）2019-2022</h3>
+                        <p>
+                            work in current lab，and do a project about a QTP alpine herb.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>Liu Lab－研究生（课题发表）</h3>
+                        <p>Learn Perl and Python and use the lastest software or tools to build new pipelines and then do project
+                        </p>
+                    </li>
+                    <li>
+                        <h3>University－课程内容（户外实习）</h3>
+                        <p>During 2016， profs led us to tianzhu and xiama, then led us to identify wild animals and plants for one month
+                        </p>
+                    </li>
+                </ul class="experience-list">
+            </div>
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">个人项目</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>基于hexo搭建的个人博客</h3>
+                        <p>
+                            Use hexo to build personal blog，which is mainly used to record personal life and some laboratory routines；otherwise，some skills were also recorded
+                        </p>
+                    </li>
+                    <li>
+                        <h3>基于 clusterprofiler的GO富集流程</h3>
+                        <p>
+                            Use cluserprofiler 4.0 published in 2021 years，to build a pipeline for GO enrichment，which is better than other pipeline lab builded before
+                        </p>
+                    </li>
+                    <li>
+                        <h3>基于WGDI的多倍化分析流程</h3>
+                        <p>
+                            Use WGDI preprinted on bi'oArxiv, to build a pipelin for WGD events, which is betters than MCSCANX and MCSCAN. In addition, the pipeline could plot ks density together, which is easier than use R.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Others</h3>
+                        <p>
+                            gene family identified, transcriptome, SNP and Indel, SVs. And read article about single-cell RNA sequencing.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="trophy info-unit">
+                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>LZU of Life Sciences Second Prize and Field Internship Individual First Prize </h3>
+                        <p>
+                            During 2016 field internship, i got individual first prize (one of five people);During 2016-2018,i got LZU of Life Sciences Second Prize(6 people of 49 students in a class)
+                        </p>
+                    </li> 
+                    <li>
+                        <h3>participating authors of two SCI article </h3>
+                        <p>
+                            During Liu Lab, i partipating two published articles (one is IF=4.0; one is IF=2.0). In addition, i partipated in an article of NC review, but no authors.
+                        </p>
+                    </li> 
+                    <li>
+                        <h3>The first of SCI article under review( the second rounds)</h3>
+                        <p>
+                            Since 2020, i took a project about a QTP alpine herb with its omics sequencing, then writed an article and conrtibuted it to Molecular Ecology(under the second round of review )
+                        </p>
+                    </li>                     
+            </div>
+            <div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+                <hr>
+                <p>
+                    遑遑二十载，书剑两无成。
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
